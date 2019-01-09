@@ -1,0 +1,47 @@
+#good {
+	margin:120px 180px;
+	padding:50px;
+	background-color:white;
+}
+#good p{
+	font-size:20px;
+	margin-bottom:10px;
+	color:red;}
+#good #left img{
+	width:150px;
+	height:150px;
+}
+#good #left{
+	display:inline-block;
+	float:left;
+	margin-right:50px;
+}
+#good #right{
+	display:inline-block;
+	text-align:left;
+	
+	height:150px;
+}
+#good #right p{
+	color:black;
+}
+#one:hover {background-color: rgba(242,242,242);}
+#good #one #right p{
+	color:red;
+	display:inline-block;
+}
+#good #one #right div{
+	background-color:rgb(255,68,0);
+	display:inline-block;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	margin-right:20px;
+}
+#good #one #right a {
+	color:white;
+	padding:10px;
+}
+#good #one #right .shanchu{
+	background-color:black;
+}

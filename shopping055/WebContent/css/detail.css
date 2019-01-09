@@ -1,0 +1,68 @@
+#good {
+	margin:120px 180px;
+	padding:50px;
+	background-color:rgba(255,255,255,0.8);
+	text-align:center;
+	width:80%;
+}
+
+#good #left img{
+	width:300px;
+	height:300px;
+}
+#good #left{
+	display:inline-block;
+	float:left;
+}
+#good #right{
+	display:inline-block;
+	text-align:left;
+	width:400px;
+	height:400px;
+	margin-right:5%;
+}
+#good #right h1{
+	color:red;
+	margin:20px 0;
+}
+#good #right p{
+	color:#9C9999;
+	font-weight:bold;
+}
+
+#good #right #price{
+	color:red;
+	margin:40px auto;
+	font-size:20px;
+	background:#ECFDF0;
+	padding:30px;
+}
+
+#good #right #price p{
+	color:red;
+	display:inline-block;
+	font-size:26px;
+}
+form{
+	font-size:18px;
+}
+form #num{
+	text-align:center;
+	border-radius:5px;
+	border:1px solid #999999;
+	margin:15px auto;
+	padding:5px 20px;
+	font-size:18px;
+	width:100px;
+}
+form #submit{
+	border-radius:10px;
+	width:180px;
+	height:50px;
+	font-size:20px;
+	background:#605046;
+	color:white;
+}
+#good #left img:hover{
+transform: scale(1.1);
+}
